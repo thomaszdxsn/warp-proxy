@@ -105,6 +105,7 @@ SUPPORTED_UNSUPPORTED_FIELDS = (
     "stream_options",
     "max_completion_tokens",
     "store",
+    "reasoning_effort",
 )
 # oz dump-debug-info 출력에서 버전을 추출하는 정규식
 WARP_VERSION_PATTERN = re.compile(r'Warp version:\s+Some\("(?P<version>[^"]+)"\)')
